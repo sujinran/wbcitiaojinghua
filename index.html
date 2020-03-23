@@ -73,6 +73,7 @@ $(function(){
 				$("#box"+no).html('');
 				$("#box"+no).html('<iframe id="frame'+no+'" src="'+bbb+'" />');
 				document.getElementById('frame'+no).contentWindow.location.reload();
+				window.location.href = window.location.href;
 			},17000);
 		}
 	});
